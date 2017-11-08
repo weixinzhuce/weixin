@@ -1,0 +1,16 @@
+git init 初始化git仓库
+git init repo 初始化制定目录为仓库
+git add filename 添加文件
+git commit -m "提交版本并注释"
+git commit -a -m "提交多个修改文件并不能提交新增文件"
+git clone url 下载代码到本地
+git push 推送更新到服务器
+git pull 取回更新 当前分支自动与唯一一个追踪分支进行合并
+git rm filename 删除文件
+git checkout test创建一个新分支
+git checkout master 第一个分支或者主分支被称为master
+git checkout master
+git merge test 对于其他分支的更改不会反应到主分支 如果想将更新提交到主分支 则需要切换回
+master分支然后使用合并
+git merge test test是要合并的分支
+git branch -d test删除分支
